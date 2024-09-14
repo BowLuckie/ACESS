@@ -1,23 +1,21 @@
 
-
-```md
 # ACESS - Inventory Management System
 
-ACESS is a Python-based inventory management system designed to handle various inventory operations such as adding, deleting, editing, and filtering items. The system stores and loads data from a CSV file to maintain persistent inventory records.
+ACESS is a Python-based inventory management system designed for handling various operations such as adding, deleting, editing, and filtering inventory items. Data is persistently stored and retrieved using CSV files.
 
 ## Features
 
-- **View Inventory**: Display all items in the inventory with their respective attributes.
-- **Add Items**: Add new items, either individually or in sets.
-- **Search Items**: Find items by their name.
-- **Edit Items**: Modify existing item details.
-- **Delete Items**: Remove items from the inventory by name.
-- **Filter Items**: Filter items based on attributes like type or time.
-- **CSV Storage**: Persistent inventory storage using CSV files.
+- **View Inventory**: Display all items in the inventory.
+- **Add Items**: Add individual or multiple items.
+- **Search Items**: Find items by name.
+- **Edit Items**: Update item details.
+- **Delete Items**: Remove items by name.
+- **Filter Items**: Filter inventory based on type or time.
+- **CSV Storage**: Inventory is saved in a CSV file for persistence.
 
 ## Project Structure
 
-
+```
 ACESS/
     TESTS/
         .pytest_cache/
@@ -35,7 +33,7 @@ ACESS/
 ### Prerequisites
 
 - Python 3.x
-- Virtual environment setup (optional but recommended)
+- Virtual environment (optional but recommended)
 
 ### Installation
 
@@ -45,7 +43,7 @@ ACESS/
     cd ACESS
     ```
 
-2. Set up a virtual environment (optional but recommended):
+2. Set up a virtual environment:
     ```bash
     python3 -m venv venv
     source venv/bin/activate   # On Windows use `venv\Scripts\activate`
@@ -63,7 +61,7 @@ ACESS/
 
 ### Running Tests
 
-To run the tests for your project:
+Run the test cases using `pytest`:
 ```bash
 cd TESTS
 pytest TEST_CSV.py
@@ -71,17 +69,17 @@ pytest TEST_CSV.py
 
 ## Usage
 
-Once the application is running, you can interact with the inventory system through a command-line interface (CLI). Follow the prompts to perform various inventory operations.
+Interact with the inventory system via the command-line interface (CLI). The following operations are supported:
 
-### Options
-- **View Full Inventory**: Displays the entire inventory with names, types, and time attributes.
+- **View Full Inventory**: Display all items in the inventory.
 - **Find Item by Name**: Search for an item using its name.
-- **Create New Item**: Add a new item to the inventory by specifying its name, time, and type.
+- **Create New Item**: Add a new item by specifying its name, time, and type.
 - **Create Multiple Sets**: Add multiple items at once.
-- **Filter Inventory**: Filter items by specific attributes like time or type.
-- **Delete Items by Name**: Remove items from the inventory by providing their names.
-- **Edit Item Details**: Modify the name, time, or type of an existing item.
+- **Filter Inventory**: Filter items by time or type.
+- **Delete Items by Name**: Remove items by name.
+- **Edit Item Details**: Modify an existing item's name, time, or type.
 
 ## License
 
 This project is licensed under the [GNU General Public License v3.0](LICENSE).
+ issues or suggestions, open an issue on the GitHub repository or contact the project maintainer.
