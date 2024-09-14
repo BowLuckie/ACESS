@@ -1,4 +1,4 @@
-Here's a structured and formatted `README.md` for your project:
+
 
 ```md
 # ACESS - Inventory Management System
