@@ -13,20 +13,7 @@ ACESS is a Python-based inventory management system designed for handling variou
 - **Filter Items**: Filter inventory based on type or time.
 - **CSV Storage**: Inventory is saved in a CSV file for persistence.
 
-## Project Structure
 
-```
-ACESS/
-    TESTS/
-        .pytest_cache/
-        inventory.csv (test data)
-        inventroyTest.csv (test data)
-        TEST_CSV.py (test cases)
-    venv/ (virtual environment)
-    inventory.csv (actual inventory data)
-    main.py (main application)
-    requirements.txt (dependencies)
-```
 
 ## Getting Started
 
