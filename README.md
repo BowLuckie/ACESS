@@ -20,7 +20,7 @@ ACESS is a Python-based inventory management system designed for handling variou
 ### Prerequisites
 
 - Python 3.x
-- Virtual environment (optional but recommended)
+
 
 ### Installation
 
@@ -29,14 +29,7 @@ ACESS is a Python-based inventory management system designed for handling variou
     git clone https://github.com/BowLuckie/ACESS.git
     cd ACESS
     ```
-
-2. Set up a virtual environment:
-    ```bash
-    python3 -m venv venv
-    source venv/bin/activate   # On Windows use `venv\Scripts\activate`
-    ```
-
-3. Install dependencies:
+2. Install dependencies:
     ```bash
     pip install -r requirements.txt
     ```
