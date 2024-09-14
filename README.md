@@ -15,4 +15,4 @@ This is a Python-based inventory system project.
 
 1. Clone the repository:
    ```sh
-   git clone [https://github.com/yourusername/your-repository-name.git](https://github.com/BowLuckie/ACESS)
+   git clone https://github.com/BowLuckie/ACESS.git
