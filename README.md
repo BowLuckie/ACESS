@@ -17,7 +17,7 @@ ACESS is a Python-based inventory management system designed to handle various i
 
 ## Project Structure
 
-```
+
 ACESS/
     TESTS/
         .pytest_cache/
